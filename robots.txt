@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dev55acc-ai.github.io/webflow-deals-site/sitemap.xml
