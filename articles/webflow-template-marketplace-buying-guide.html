@@ -24,7 +24,92 @@ h2 { font-size:1.15rem; margin:0 0 1rem; }
 .card small { color:var(--mute); }
 .note { background:#f7f7f9; border-radius:10px; padding:1rem 1.25rem; font-size:.9rem; color:var(--mute); }
 footer { padding:2rem 0 3rem; color:var(--mute); font-size:.8rem; border-top:1px solid var(--line); margin-top:2rem; }
+
+  .cta { border:1px solid var(--line); border-top:3px solid var(--accent);
+    border-radius:12px; padding:1.5rem 1.5rem 1.6rem; margin:2.5rem 0 1rem;
+    background:#fbfbfe; }
+  .cta .kicker { color:var(--accent); font-weight:700; font-size:.72rem;
+    letter-spacing:.09em; text-transform:uppercase; }
+  .cta h2 { font-size:1.2rem; margin:.5rem 0 .5rem; }
+  .cta p { font-size:.95rem; color:var(--mute); margin:0 0 1.1rem; }
+  .cta .price { font-weight:800; font-size:1.05rem; color:var(--ink); }
+  .cta .btn { display:inline-block; background:var(--accent); color:#fff;
+    text-decoration:none; font-weight:700; font-size:.95rem;
+    padding:.7rem 1.2rem; border-radius:8px; }
+  .cta .btn:hover { background:#3341e0; }
+  .cta .fine { display:block; margin-top:.8rem; font-size:.78rem; color:var(--mute); }
 </style>
+
+<!--wd:head-->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="WebflowDeals">
+<meta property="og:title" content="Webflow Template Marketplace Buying Guide — Webflow Deals">
+<meta property="og:description" content="How the Webflow template marketplace works: licensing rules, one-site limits, CMS access, and the traps that cost buyers a second purchase.">
+<meta property="og:url" content="https://dev55acc-ai.github.io/webflow-deals-site/articles/webflow-template-marketplace-buying-guide.html">
+<meta property="og:image" content="https://dev55acc-ai.github.io/webflow-deals-site/og/webflow-template-marketplace-buying-guide.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Webflow Template Marketplace Buying Guide — Webflow Deals">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Webflow Template Marketplace Buying Guide — Webflow Deals">
+<meta name="twitter:description" content="How the Webflow template marketplace works: licensing rules, one-site limits, CMS access, and the traps that cost buyers a second purchase.">
+<meta name="twitter:image" content="https://dev55acc-ai.github.io/webflow-deals-site/og/webflow-template-marketplace-buying-guide.png">
+<meta name="twitter:site" content="@webflowdeals">
+<link rel="canonical" href="https://dev55acc-ai.github.io/webflow-deals-site/articles/webflow-template-marketplace-buying-guide.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Webflow Template Marketplace Buying Guide — Webflow Deals",
+  "description": "How the Webflow template marketplace works: licensing rules, one-site limits, CMS access, and the traps that cost buyers a second purchase.",
+  "image": "https://dev55acc-ai.github.io/webflow-deals-site/og/webflow-template-marketplace-buying-guide.png",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://dev55acc-ai.github.io/webflow-deals-site/articles/webflow-template-marketplace-buying-guide.html"
+  },
+  "url": "https://dev55acc-ai.github.io/webflow-deals-site/articles/webflow-template-marketplace-buying-guide.html",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "author": {
+    "@type": "Organization",
+    "name": "Nimos",
+    "url": "https://dev55acc-ai.github.io/webflow-deals-site/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nimos",
+    "url": "https://dev55acc-ai.github.io/webflow-deals-site/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dev55acc-ai.github.io/webflow-deals-site/og/home.png"
+    }
+  }
+}
+</script>
+<script>
+// Outbound click + pageview beacon. Inert until an endpoint is set in
+// webflow-deals/analytics.js; see request_input key_name webflow_deals_endpoint.
+window.WD = window.WD || { v: [], clicks: [] };
+(function () {
+  var E = window.WD_ENDPOINT;
+  if (!E) return;
+  var img = new Image();
+  img.src = E + '?p=' + encodeURIComponent(location.pathname) +
+            '&r=' + encodeURIComponent(document.referrer || 'direct') +
+            '&t=' + Date.now();
+  document.addEventListener('click', function (ev) {
+    var a = ev.target.closest && ev.target.closest('a[href]');
+    if (!a) return;
+    var h = a.href || '';
+    if (h.indexOf('http') !== 0) return;
+    var p = new Image();
+    p.src = E + '?e=click&p=' + encodeURIComponent(location.pathname) +
+           '&u=' + encodeURIComponent(h);
+  }, true);
+})();
+</script>
+<!--/wd:head-->
 </head>
 <body>
 <header><div class="wrap">
@@ -58,7 +143,21 @@ footer { padding:2rem 0 3rem; color:var(--mute); font-size:.8rem; border-top:1px
     </a>
   </section>
 
-  <footer>WebflowDeals is an independent review site by Nimos and is not affiliated with Webflow, Inc. Webflow is a trademark of Webflow, Inc.</footer>
+  <section>
+
+</section>
+<section>
+<!--wd:cta-->
+  <div class="cta">
+    <div class="kicker">Companion tool · $29.99</div>
+    <h2>True-Cost Sheets 2026</h2>
+    <p>Before you buy anything, put the whole stack in one workbook: template, plan, add-ons, and what happens if you have to buy it twice.</p>
+    <a class="btn" href="https://whop.com/nimos-10a3/products/true-cost-sheets-2026/" rel="nofollow noopener">Run your stack through the sheet first →</a>
+    <span class="fine">One-time purchase, no subscription. A spreadsheet — nothing runs on your site.</span>
+  </div>
+<!--/wd:cta-->
+</section>
+<footer>WebflowDeals is an independent review site by Nimos and is not affiliated with Webflow, Inc. Webflow is a trademark of Webflow, Inc.</footer>
 </main>
 </body>
 </html>
